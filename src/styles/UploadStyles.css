@@ -1,0 +1,36 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.file-upload-label,
+.message-label {
+    font-weight: bold;
+}
+
+.file-upload-input {
+    width: 100%;
+}
+
+.message-input {
+    width: 100%;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; 
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

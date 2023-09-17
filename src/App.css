@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo {
@@ -35,4 +37,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.part3 {
+  display: flex;
+  justify-content: space-between; 
+  flex: start; 
+  gap: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  flex: start; 
+  gap: 20px;
+}
+
+.instagram-feed {
+  border: 1px solid #ccc;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
 }

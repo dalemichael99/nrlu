@@ -1,0 +1,16 @@
+.slideshowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slide {
+    width: 60.5%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #f4f4f4;
+}

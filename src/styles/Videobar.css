@@ -1,0 +1,14 @@
+.videobarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .videoFrame {
+    width: 24%;
+    height: 200px;
+  }

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Slideshow from './components/Slideshow';
+import Videobar from './components/Videobar';
+import Form from './components/Form';
+import UploadField from './components/UploadField';
+import WebsiteEmbed from './components/WebsiteEmbed';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Slideshow />
+      <Videobar />
+      <div className="part3">
+        <Form />
+        <UploadField />
+        <WebsiteEmbed url="https://www.nrl.com/" />
+      </div>
+      <Footer />
     </div>
   );
 }
